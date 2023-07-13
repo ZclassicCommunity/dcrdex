@@ -70,6 +70,8 @@ var EnUS = map[string]string{
 	"need_to_register_msg":           `You need to create an account on <span id="unregisteredDex"></span> to trade.`,
 	"Create Account":                 "Create Account",
 	"reg_status_msg":                 `In order to trade at <span id="regStatusDex" class="text-break"></span>, your pending bond(s) need to be confirmed.`,
+	"posting_bonds_shortly":          "Creating bonds...",
+	"bond_creation_pending_msg":      `In order to trade at <span id="postingBondsDex" class="text-break"></span> bond(s) will be created shortly.`,
 	"action_required_to_trade":       "ACTION REQUIRED TO TRADE",
 	"acct_tier_post_bond":            `You account tier is <span id="acctTier"></span>. You need to post new bonds to trade.`,
 	"enable_bond_maintenance":        "Enable bond maintenance from DEX Settings page.",
@@ -352,4 +354,18 @@ var EnUS = map[string]string{
 	"no_token_allowances":     "You have not granted allowances for any swap contracts for this token.",
 	"token_unapproval_tx_msg": `Your token approval has been removed with transaction ID:`,
 	"approval_change_pending": "Approval change pending",
+	// Init page
+	"Quick Configuration":             "Quick Configuration",
+	"quickconfig_server_header":       "We can connect to these servers.",
+	"quickconfig_wallet_header":       "We can activate these native wallets now. Configure additional wallets from the Wallets view.",
+	"quickconfig_server_error_header": "Errors encountered when connecting to the following servers. You can try again from the Settings view.",
+	"quickconfig_wallet_error_header": "Errors encountered when creating the following wallets. Wallets can be configured in the Wallets view.",
+	"Continue":                        "Continue",
+	"Backup App Seed":                 "Backup App Seed",
+	"seed_backup_implore": "It's highly recommended that you back up your application seed now. " +
+		"The application seed is critical to recovering your fidelity bonds and native wallets.",
+	"Backup Now":             "Backup Now",
+	"Skip this step for now": "Skip this step for now",
+	"save_seed_instructions": "Save the following seed somewhere safe. Do not share this with anybody.",
+	"Done":                   "Done",
 }
